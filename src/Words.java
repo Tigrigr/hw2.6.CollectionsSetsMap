@@ -4,6 +4,7 @@ public class Words {
     List<String> words = new ArrayList<>(List.of("skypro", "java", "IDEA", "IDEA", "java", "skypro"));
     List<String> strings = new ArrayList<>(List.of("один", "два", "два", "три", "три", "три"));
 
+    //Задача 3, напечатать в консоль все уникальные слова из списка слов, в котором могут встречаться дубли.
     public void getUniqWords() {
         Set<String> uniqueWords = new HashSet<>(words);
 
@@ -12,6 +13,7 @@ public class Words {
         }
     }
 
+    //Задача 4, напечатать в консоль количество дублей для каждого уникального слова.
     public void getSumDoubleFromUniqWords() {
         Map<String, Integer> wordCounts = new HashMap<>();
 
